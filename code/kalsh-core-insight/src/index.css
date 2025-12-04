@@ -1,0 +1,267 @@
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+@import '@fontsource/jetbrains-mono/600.css';
+@import '@fontsource/jetbrains-mono/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 8px;
+    
+    /* Backgrounds */
+    --bg-pure: #000000;
+    --bg-base: #0a0a0a;
+    --bg-surface: #141414;
+    --bg-elevated: #1a1a1a;
+    --bg-hover: #1f1f1f;
+    
+    /* Text */
+    --text-primary: #e5e5e5;
+    --text-secondary: #a3a3a3;
+    --text-muted: #71717a;
+    --text-emphasis: #ffffff;
+    
+    /* Accents */
+    --accent-primary: #00ff41;
+    --accent-secondary: #00ffff;
+    --accent-warning: #ffb700;
+    --accent-danger: #ff5757;
+    
+    /* Glows */
+    --glow-green: rgba(0,255,65,0.3);
+    --glow-cyan: rgba(0,255,255,0.3);
+    --glow-warning: rgba(255,183,0,0.3);
+    --glow-danger: rgba(255,87,87,0.3);
+    
+    /* Component tokens */
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 142.1 76.2% 36.3%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-bg-base text-text-primary font-mono antialiased;
+    font-feature-settings: 'liga' on, 'calt' on;
+    letter-spacing: 0.02em;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-bg-base;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-bg-elevated rounded-sm;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-bg-hover;
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(0, 255, 65, 0.2);
+    color: var(--accent-primary);
+  }
+}
+
+@layer components {
+  /* Terminal cursor */
+  .terminal-cursor {
+    @apply inline-block w-2 h-5 bg-accent-primary animate-cursor-blink ml-1;
+  }
+
+  /* Card base */
+  .card-base {
+    @apply bg-bg-surface border border-accent-primary/20 rounded-md p-6;
+    @apply transition-all duration-fast;
+  }
+
+  .card-base:hover {
+    @apply border-accent-primary shadow-glow-green;
+  }
+
+  /* Alert urgency indicators */
+  .alert-high {
+    @apply border-t-[3px] border-t-alert-high;
+  }
+
+  .alert-medium {
+    @apply border-t-[3px] border-t-alert-medium;
+  }
+
+  .alert-low {
+    @apply border-t-[3px] border-t-alert-low;
+  }
+
+  /* Status badges */
+  .badge-bullish {
+    @apply border border-status-bullish text-status-bullish bg-transparent;
+  }
+
+  .badge-bearish {
+    @apply border border-status-bearish text-status-bearish bg-transparent;
+  }
+
+  .badge-neutral {
+    @apply border border-text-muted text-text-muted bg-transparent;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply px-6 py-3 bg-transparent border-2 border-accent-primary text-accent-primary;
+    @apply font-mono text-small uppercase tracking-wider rounded-sm;
+    @apply transition-all duration-fast;
+  }
+
+  .btn-primary:hover {
+    @apply bg-accent-primary text-black shadow-glow-green;
+  }
+
+  .btn-ghost {
+    @apply px-4 py-2 bg-transparent text-text-secondary border border-transparent;
+    @apply font-mono text-small rounded-sm transition-all duration-fast;
+  }
+
+  .btn-ghost:hover {
+    @apply text-accent-primary border-accent-primary/30;
+  }
+
+  /* Filter chips */
+  .filter-chip {
+    @apply px-4 py-2 bg-bg-base border border-text-muted text-text-secondary;
+    @apply font-mono text-small rounded-full transition-all duration-fast cursor-pointer;
+  }
+
+  .filter-chip:hover {
+    @apply border-accent-primary/50 text-text-primary;
+  }
+
+  .filter-chip.active {
+    @apply border-accent-primary text-accent-primary shadow-glow-green;
+  }
+
+  /* Reason block */
+  .reason-block {
+    @apply bg-bg-base p-3 rounded-sm;
+  }
+
+  .reason-block::before {
+    content: '>';
+    @apply text-accent-primary mr-2 font-bold;
+  }
+
+  /* Data display */
+  .data-label {
+    @apply text-xs text-text-muted uppercase tracking-wider;
+  }
+
+  .data-value {
+    @apply text-data-lg text-text-primary font-bold;
+  }
+
+  /* Glow effects */
+  .glow-on-change {
+    animation: glow-pulse 2s ease-out;
+  }
+
+  /* Loading skeleton */
+  .skeleton {
+    @apply bg-bg-surface relative overflow-hidden;
+  }
+
+  .skeleton::after {
+    content: '';
+    @apply absolute inset-0 animate-shimmer;
+    background: linear-gradient(90deg, transparent, var(--bg-hover), transparent);
+  }
+
+  /* Stats bar item */
+  .stats-item {
+    @apply p-6 min-w-[140px];
+  }
+
+  /* Mobile responsive helpers */
+  @media (max-width: 768px) {
+    .card-base {
+      @apply p-5;
+    }
+    
+    .stats-item {
+      @apply p-4;
+    }
+  }
+}
+
+@layer utilities {
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Address truncation */
+  .truncate-address {
+    @apply font-mono;
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Grid layouts */
+  .insight-grid {
+    @apply grid gap-6;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (min-width: 768px) {
+    .insight-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .insight-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent-primary;
+}
+
+img {
+  object-position: top;
+}
+
+.fixed {
+  position: fixed;
+}

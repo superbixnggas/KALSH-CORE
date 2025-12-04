@@ -12,14 +12,14 @@
         "id": "2",
         "content": "Design system dan UI/UX untuk card-based interface",
         "details": "1. Buat design specification untuk dashboard 2. Design card templates untuk tiga mode (Daily, Live, Explorer) 3. Design alert system dan notification UI 4. Define color scheme dan visual identity",
-        "status": "in_progress",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Develop full-stack Kalsh Core Insight application",
         "details": "1. Setup Supabase backend dengan authentication 2. Buat database schema untuk insights, alerts, users, watchlists 3. Implement real-time data processing pipeline 4. Develop card-based dashboard frontend 5. Build insight generation engine 6. Implement alert system 7. Add personalization features",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       }
     }
