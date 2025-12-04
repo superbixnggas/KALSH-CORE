@@ -5,14 +5,14 @@
         "id": "1",
         "content": "Riset dan persiapan data sources untuk crypto insights",
         "details": "1. Riset API crypto untuk real-time data (on-chain, price, social sentiment) 2. Identifikasi sumber data untuk narrative tracking 3. Riset developer activity data sources 4. Siapkan struktur data untuk insight processing",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Design system dan UI/UX untuk card-based interface",
         "details": "1. Buat design specification untuk dashboard 2. Design card templates untuk tiga mode (Daily, Live, Explorer) 3. Design alert system dan notification UI 4. Define color scheme dan visual identity",
-        "status": "pending",
+        "status": "in_progress",
         "priority": "high"
       },
       "3": {

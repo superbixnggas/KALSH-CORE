@@ -1,0 +1,270 @@
+{
+  "_source_id": 37,
+  "sources": {
+    "Social Sentiment & Narrative Tracking Data Sources Analysis": {
+      "https://twitterapi.io/blog/twitter-api-pricing-2025": {
+        "id": 1,
+        "publisher": "TwitterAPI.io",
+        "url": "https://twitterapi.io/blog/twitter-api-pricing-2025",
+        "title": "X (Twitter) Official API Pricing Tiers 2025",
+        "info": "Comprehensive pricing tiers for Twitter/X API in 2025: Free (100 posts/month), Basic ($200/month, 15k reads), Pro ($5,000/month, 1M reads), Enterprise (custom pricing). Alternative TwitterAPI.io offers pay-per-use at $0.15 per 1,000 tweets."
+      },
+      "https://docs.x.com/x-api/introduction": {
+        "id": 2,
+        "publisher": "X (Twitter) Developer Platform",
+        "url": "https://docs.x.com/x-api/introduction",
+        "title": "X API v2 Introduction",
+        "info": "Official X API v2 documentation detailing access levels, rate limits, and features. Free tier includes 1 project, 100 posts/month reads, 500 posts/month writes. Basic tier at $200/month includes full v2 endpoints."
+      },
+      "https://lunarcrush.com/pricing": {
+        "id": 3,
+        "publisher": "LunarCrush",
+        "url": "https://lunarcrush.com/pricing",
+        "title": "LunarCrush Social Analytics Pricing",
+        "info": "LunarCrush pricing: Individual ($72/month), Builder ($240/month), Scale ($720/month), Enterprise (custom). Includes social sentiment analysis, AI agents, custom terms, and API access with rate limits."
+      },
+      "https://www.stockgeist.ai/api-pricing/": {
+        "id": 4,
+        "publisher": "StockGeist AI",
+        "url": "https://www.stockgeist.ai/api-pricing/",
+        "title": "API Pricing StockGeist",
+        "info": "StockGeist AI sentiment API pricing: Free tier includes 10k monthly credits, 1 crypto stream, 5 stock streams. Paid plans range from $75-$2500 with 75-100 streams for crypto and stock data."
+      },
+      "https://sentimentracker.com/": {
+        "id": 5,
+        "publisher": "SentimentTracker",
+        "url": "https://sentimentracker.com/",
+        "title": "Momentum Radar Social Sentiment",
+        "info": "SentimentTracker and Momentum Radar pricing: High tier ($149/month, $349/3 months, $999/year), Low tier ($24.95/month, $49.95/3 months, $199/year). Features include social sentiment tracking and trending analysis."
+      },
+      "https://app.santiment.net/social-trends": {
+        "id": 6,
+        "publisher": "Santiment",
+        "url": "https://app.santiment.net/social-trends",
+        "title": "Santiment Social Trends",
+        "info": "Santiment provides crypto sentiment analysis with social trends tracking, trending words, stories, and coins. Price not specified but includes community analysis and insights."
+      },
+      "https://alpaca.markets/learn/reddit-sentiment-analysis-trading-strategy": {
+        "id": 7,
+        "publisher": "Alpaca Markets",
+        "url": "https://alpaca.markets/learn/reddit-sentiment-analysis-trading-strategy",
+        "title": "Reddit Sentiment Analysis Strategy",
+        "info": "Guide to Reddit sentiment analysis using Alpaca Trading API with Python, NLTK for sentiment analysis, and PRAW for Reddit data extraction. Focuses on Ethereum subreddit analysis for crypto trading."
+      },
+      "https://assemblyai.com/blog/best-apis-for-sentiment-analysis": {
+        "id": 8,
+        "publisher": "AssemblyAI",
+        "url": "https://assemblyai.com/blog/best-apis-for-sentiment-analysis",
+        "title": "Best APIs for Sentiment Analysis 2025",
+        "info": "Comparison of sentiment analysis APIs including AssemblyAI (focus on audio/video), Twinword (free 9k words/month), IBM Watson, Amazon Comprehend, and Google AI. Pricing ranges from $19-250/month."
+      },
+      "https://www.coingecko.com/learn/crypto-sentiment-analysis-trading-strategy": {
+        "id": 9,
+        "publisher": "CoinGecko",
+        "url": "https://www.coingecko.com/learn/crypto-sentiment-analysis-trading-strategy",
+        "title": "Crypto Sentiment Analysis Trading Strategy",
+        "info": "Guide to crypto sentiment analysis strategy using CoinGecko API (free tier: 30 calls/minute, 10k monthly calls) combined with external sentiment analysis tools for trading signals."
+      },
+      "https://www.tokenmetrics.com/blog/mastering-discord-integrations-api-essentials?74e29fd5_page=130": {
+        "id": 10,
+        "publisher": "Token Metrics",
+        "url": "https://www.tokenmetrics.com/blog/mastering-discord-integrations-api-essentials?74e29fd5_page=130",
+        "title": "Discord API Guide for Crypto Communities",
+        "info": "Comprehensive guide to Discord API integration for crypto sentiment analysis. Covers Gateway vs REST, authentication, rate limits, webhooks, and AI integration for real-time community monitoring."
+      },
+      "https://www.tokenmetrics.com/blog/top-crypto-narratives?74e29fd5_page=106": {
+        "id": 11,
+        "publisher": "Token Metrics",
+        "url": "https://www.tokenmetrics.com/blog/top-crypto-narratives?74e29fd5_page=106",
+        "title": "Top Crypto Narratives 2024",
+        "info": "Analysis of top crypto narratives in 2024 including DePIN (30.2%), AI (18.8%), GameFi (14.4%), DeFi (13.2%), RWA (8.6%), with methodology for narrative detection and trend analysis."
+      },
+      "https://www.creolestudios.com/ai-agents-for-crypto-trading/": {
+        "id": 12,
+        "publisher": "Creole Studios",
+        "url": "https://www.creolestudios.com/ai-agents-for-crypto-trading/",
+        "title": "AI Agents for Crypto Trading Free vs Paid",
+        "info": "Comparison of free vs paid AI crypto tools. Quadency ranges $49-199/month with AI features including sentiment analysis. Free tools typically have limited features and accuracy."
+      }
+    },
+    "Developer Activity Sources Analysis": {
+      "https://etherscan.io/apis": {
+        "id": 13,
+        "publisher": "Etherscan",
+        "url": "https://etherscan.io/apis",
+        "title": "Etherscan APIs - Ethereum (ETH) API Provider",
+        "info": "Etherscan API V2 menyediakan akses terpadu ke data EVM di 50+ blockchain dengan rate limits hingga 30 calls/second, support untuk enterprise dengan unlimited access, pricing mulai dari free tier hingga $899/month"
+      },
+      "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api": {
+        "id": 14,
+        "publisher": "GitHub",
+        "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api",
+        "title": "Rate limits for the REST API - GitHub Docs",
+        "info": "GitHub API rate limits: 60 req/hour untuk unauthenticated, 5000 req/hour untuk authenticated users, dengan dukungan GitHub Enterprise Cloud hingga 15000 req/hour"
+      },
+      "https://moralis.com/api/wallet/": {
+        "id": 15,
+        "publisher": "Moralis",
+        "url": "https://moralis.com/api/wallet/",
+        "title": "Crypto Wallet API for Web3 Dapps",
+        "info": "Moralis Wallet API mendukung 30+ blockchain, mencakup 500+ juta alamat Web3, dengan fitur real-time tracking menggunakan Moralis Streams, pricing enterprise dengan SOC 2 compliance"
+      },
+      "https://docs.gitlab.com/user/project/integrations/webhooks/": {
+        "id": 16,
+        "publisher": "GitLab",
+        "url": "https://docs.gitlab.com/user/project/integrations/webhooks/",
+        "title": "Webhooks - GitLab Docs",
+        "info": "GitLab Webhooks support real-time notifications, dengan fitur custom headers, template webhook, filter by branch, dan automatic disabling untuk failed webhooks"
+      },
+      "https://dune.com/product/api": {
+        "id": 17,
+        "publisher": "Dune Analytics",
+        "url": "https://dune.com/product/api",
+        "title": "Dune API",
+        "info": "Dune Analytics API menyediakan akses ke 1+ PB data multi-chain dengan REST API Sinkron, MCP-ready untuk AI integration, dan support untuk 100+ blockchains"
+      },
+      "https://api-docs.defillama.com/": {
+        "id": 18,
+        "publisher": "DeFiLlama",
+        "url": "https://api-docs.defillama.com/",
+        "title": "API Docs - DefiLlama",
+        "info": "DeFiLlama API memiliki kategori Developer Activity Tracking (DAT), versi Pro pricing $300/month dengan higher rate limits dan endpoint untuk TVL, stablecoins, dan blockchain analytics"
+      },
+      "https://npmtrends.com/": {
+        "id": 19,
+        "publisher": "npm-trends",
+        "url": "https://npmtrends.com/",
+        "title": "npm trends: Compare NPM package downloads",
+        "info": "npm-trends.com menyediakan fungsionalitas untuk membandingkan jumlah unduhan paket NPM dari waktu ke waktu, berguna untuk tracking package popularity"
+      },
+      "https://docs.github.com/en/webhooks/webhook-events-and-payloads": {
+        "id": 20,
+        "publisher": "GitHub",
+        "url": "https://docs.github.com/en/webhooks/webhook-events-and-payloads",
+        "title": "Webhook events and payloads - GitHub Docs",
+        "info": "GitHub Webhooks support berbagai events dengan payload JSON, ada 25MB payload cap, dengan security headers untuk validasi seperti X-Hub-Signature-256"
+      },
+      "https://docs.gitlab.com/api/events/": {
+        "id": 21,
+        "publisher": "GitLab",
+        "url": "https://docs.gitlab.com/api/events/",
+        "title": "Events API - GitLab Docs",
+        "info": "GitLab Events API digunakan untuk review aktivitas event, mencakup berbagai actions seperti joining projects, commenting on issues, pushing changes"
+      },
+      "https://circleci.com/docs/api/v2/": {
+        "id": 22,
+        "publisher": "CircleCI",
+        "url": "https://circleci.com/docs/api/v2/",
+        "title": "CircleCI API v2 Documentation",
+        "info": "CircleCI API v2 menyediakan insights endpoints dengan metrik real-time pipeline, usage tracking dengan 13 bulan data retention, dan rate limits 10 requests/hour per organization"
+      },
+      "https://sentry.io/": {
+        "id": 23,
+        "publisher": "Sentry",
+        "url": "https://sentry.io/",
+        "title": "Sentry: Application Performance Monitoring & Error Tracking Software",
+        "info": "Sentry menyediakan real-time error tracking dengan 4+ juta developers, 150,000+ teams, dengan integrasi GitHub/Jira/Slack dan comprehensive API untuk developer activity monitoring"
+      },
+      "https://docs.github.com/en/rest/code-scanning/code-scanning": {
+        "id": 24,
+        "publisher": "GitHub",
+        "url": "https://docs.github.com/en/rest/code-scanning/code-scanning",
+        "title": "REST API endpoints for code scanning - GitHub Docs",
+        "info": "GitHub Code Scanning API menyediakan endpoints untuk mengambil alerts, mengelola autofix, upload SARIF data, dan tracking CodeQL database untuk security analysis"
+      },
+      "https://docs.sourcegraph.com/admin/analytics": {
+        "id": 25,
+        "publisher": "Sourcegraph",
+        "url": "https://docs.sourcegraph.com/admin/analytics",
+        "title": "Sourcegraph Analytics",
+        "info": "Sourcegraph Analytics menawarkan comprehensive tracking untuk 500+ juta developers dengan metrics seperti code completion rate, AI coding assistance, dan real-time code intelligence analytics"
+      }
+    },
+    "Crypto Real-Time APIs Analysis": {
+      "https://docs.coingecko.com/": {
+        "id": 26,
+        "publisher": "CoinGecko",
+        "url": "https://docs.coingecko.com/",
+        "title": "CoinGecko API - Comprehensive Crypto Market Data",
+        "info": "API terpopuler dengan 18K+ koin, 1K+ exchange, support 250+ blockchain, rate limits 30-1000 calls/min, pricing dari gratis hingga enterprise"
+      },
+      "https://coinmarketcap.com/api/documentation/v1/": {
+        "id": 27,
+        "publisher": "CoinMarketCap",
+        "url": "https://coinmarketcap.com/api/documentation/v1/",
+        "title": "CoinMarketCap API Documentation",
+        "info": "API established dengan 93 mata uang fiat support, rate limits per tier, endpoint kategoris, pricing dari gratis Basic hingga Enterprise"
+      },
+      "https://docs.binance.us/": {
+        "id": 28,
+        "publisher": "Binance",
+        "url": "https://docs.binance.us/",
+        "title": "Binance US API Documentation",
+        "info": "Comprehensive trading API dengan REST & WebSocket, rate limits berbasis request weight, no API usage fees, fokus pada data pasar real-time"
+      },
+      "https://docs.etherscan.io/etherscan-v2": {
+        "id": 29,
+        "publisher": "Etherscan",
+        "url": "https://docs.etherscan.io/etherscan-v2",
+        "title": "Etherscan API V2 - Multichain Access",
+        "info": "Multichain EVM API dengan 60+ supported chains, PRO endpoints, comprehensive on-chain data untuk blockchain analysis"
+      },
+      "https://www.alchemy.com/docs/data": {
+        "id": 30,
+        "publisher": "Alchemy",
+        "url": "https://www.alchemy.com/docs/data",
+        "title": "Alchemy Data APIs Overview",
+        "info": "Blockchain development platform dengan API data komprehensif, Portfolio API, Token API, NFT API, real-time pricing, multi-chain support"
+      },
+      "https://www.infura.io/": {
+        "id": 31,
+        "publisher": "Infura",
+        "url": "https://www.infura.io/",
+        "title": "Infura Web3 Development Platform",
+        "info": "RPC provider dengan 40+ networks, pricing tiers dari Core (3M credits/day) hingga Enterprise, guaranteed throughput rates"
+      },
+      "https://whale-alert.io/": {
+        "id": 32,
+        "publisher": "Whale Alert",
+        "url": "https://whale-alert.io/",
+        "title": "Whale Alert - Real-Time Crypto Whale Tracking",
+        "info": "Whale tracking dengan hampir 100 crypto assets, real-time monitoring, 1000 alerts/day, pricing mulai $14.95/month"
+      },
+      "https://cryptoquant.com/": {
+        "id": 33,
+        "publisher": "CryptoQuant",
+        "url": "https://cryptoquant.com/",
+        "title": "CryptoQuant - On-Chain Actionable Insights",
+        "info": "On-chain analytics untuk institusi, smart money tracking, API berkualitas tinggi, low latency, support untuk 40+ blockchain"
+      },
+      "https://bitquery.io/blog/how-to-find-ethereum-whales-follow-money": {
+        "id": 34,
+        "publisher": "Bitquery",
+        "url": "https://bitquery.io/blog/how-to-find-ethereum-whales-follow-money",
+        "title": "Bitquery - Ethereum Whale Tracking Guide",
+        "info": "GraphQL API untuk whale tracking dan blockchain analysis, support 40+ blockchain, real-time data untuk smart money movement"
+      },
+      "https://www.alchemy.com/pricing": {
+        "id": 35,
+        "publisher": "Alchemy",
+        "url": "https://www.alchemy.com/pricing",
+        "title": "Alchemy API Pricing Plans",
+        "info": "Pricing transparan: Free (30M CU/month), Pay-as-you-go ($0.40/1M CU), Enterprise (kustom), 25-300+ req/s rate limits"
+      },
+      "https://www.infura.io/pricing": {
+        "id": 36,
+        "publisher": "Infura",
+        "url": "https://www.infura.io/pricing",
+        "title": "Infura API Pricing",
+        "info": "Pricing tiers: Core (gratis 3M credits/day), Developer ($50/month 15M credits/day), Team ($225/month 75M credits/day)"
+      },
+      "https://www.coingecko.com/en/api/pricing": {
+        "id": 37,
+        "publisher": "CoinGecko",
+        "url": "https://www.coingecko.com/en/api/pricing",
+        "title": "CoinGecko API Pricing Plans",
+        "info": "Pricing: Demo (gratis 10K calls), Basic ($35/month 100K calls), Analyst ($129/month 500K calls), Lite ($499/month 2M calls)"
+      }
+    }
+  }
+}
